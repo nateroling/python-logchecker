@@ -1,0 +1,14 @@
+2011-12-07
+
+Trying to create a better alternative to logcheck.
+
+For now, this will run in much the same way as logcheck, operating
+on input from logtail.
+
+One thing we may want to do is keep track of how long a thing has
+been an issue before reporting on it. For example, if MySQL
+replication goes down at 8pm, we might not care until it's been down
+for four hours. If we are operating purely on input from logtail, we
+will have to keep a separate state database to track this kind of
+thing. That may be an issue for the future.
+
