@@ -3,6 +3,9 @@ from dateutil.parser import parse as parse_date
 import re
 from collections import defaultdict
 
+# TODO
+# Customizable message printing formats
+
 
 class Severity:
     """
@@ -63,25 +66,47 @@ class Printer:
 
 class Counter:
 
-    def __init__(self):
+    def __init__(self, title="Counted", print_other = False):
+        self._title = title
+        self._print_other = print_other
+        self._preconditions = []
         self._rules = []
         self._counts = defaultdict(int)
+        self._other = 0
+        self._other_msgs = []
 
     def count(self, name, *rules):
         for rule in rules:
             self._rules.append((name, rule))
 
+    def require(self, *rules):
+        for rule in rules:
+            self._preconditions.append(rule)
+
     def process(self, msg):
+        for rule in self._preconditions:
+            if not rule(msg):
+                return False
         for name, rule in self._rules:
             if rule(msg):
                 self._counts[name] += 1
                 return True
+        self._other += 1
+        self._other_msgs.append(msg)
         return False
 
     def postprocess(self):
+        print("")
+        print(self._title)
+        print("-" * len(self._title))
         for name, rule in self._rules:
-            print("Counted {1} {0}".format(
+            print("{1:>5} {0}".format(
                 name, self._counts[name]))
+        if self._print_other and self._other > 0:
+            print("{1:>5} {0}".format(
+                "others:", self._other))
+            for msg in self._other_msgs:
+                print "     ", msg.host, msg.program, msg.message
 
 
 class Rule:
@@ -101,6 +126,12 @@ class Rule:
         def func(value):
             return self._func(value) or other._func(value)
         return Rule(func)
+
+    def __invert__(self):
+        def func(value):
+            return not self._func(value)
+        return Rule(func)
+
 
     def __nonzero__(self):
         raise Exception("Can't cast Rule to boolean, did you mean & or |?")
@@ -208,10 +239,15 @@ printer.discard(
     # Ignore INFO messages from some facilities.
     (facility == ["auth", "authpriv", "cron"]) & (severity == "info"))
 
-counter = Counter()
-counter.count("hc router messages", (host == "hc-router"))
-counter.count("dbq router messages", (program == "dbq-router"))
-counter.count("exim notices", (program == "exim") & (severity == "notice"))
+counter= Counter("exim notices", print_other=True)
+counter.require((program == "exim") & (severity == "notice"))
+
+# Count certain exim notices.
+counter.count("unroutable address", message.match(".*Unrouteable address$"))
+counter.count("relay not permitted", message.match(".*relay not permitted$"))
+counter.count("syntactically invalid", message.contains("syntactically invalid argument"))
+counter.count("synchronization error", message.match("SMTP protocol synchronization error"))
+
 
 def main():
     import sys
@@ -227,5 +263,9 @@ def main():
 
 
 if __name__ == "__main__":
+    import sys
     main()
+    sys.exit(0)
+    import cProfile
+    cProfile.run('main()')
 
