@@ -244,3 +244,9 @@ program = Field("program")
 message = Field("message")
 host = Field("host")
 
+def run(*processors):
+    runner = Runner()
+    for x in processors:
+        runner.add(x)
+    runner.run(sys.stdin)
+

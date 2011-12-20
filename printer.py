@@ -1,5 +1,5 @@
 import sys
-from process import Runner, Printer
+from process import Printer, run
 from process import program, message, host, severity, facility
 
 printer = Printer()
@@ -27,13 +27,7 @@ printer.discard(
     # Ignore INFO messages from some facilities.
     (facility == ["auth", "authpriv", "cron"]) & (severity == "info"))
 
-runner = Runner()
-runner.add(printer)
-
-def main():
-    runner.run(sys.stdin)
-
 if __name__ == "__main__":
-    main()
+    run(printer)
     sys.exit(0)
 
