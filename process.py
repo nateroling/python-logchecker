@@ -266,6 +266,4 @@ if __name__ == "__main__":
     import sys
     main()
     sys.exit(0)
-    import cProfile
-    cProfile.run('main()')
 
