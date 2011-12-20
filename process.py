@@ -1,3 +1,4 @@
+import sys
 from pyparsing import Word, nums, alphas, Regex, Suppress, Optional
 from dateutil.parser import parse as parse_date
 import re
@@ -44,8 +45,16 @@ class Severity:
     def __str__(self):
         return self.value
 
+class Processor:
 
-class Printer:
+    def process(self, msg):
+        pass
+
+    def postprocess(self):
+        pass
+
+
+class Printer(Processor):
 
     def __init__(self):
         self._rules = []
@@ -64,7 +73,7 @@ class Printer:
             print msg.host, msg.program, msg.message
 
 
-class Counter:
+class Counter(Processor):
 
     def __init__(self, title="Counted", print_other = False):
         self._title = title
@@ -96,7 +105,6 @@ class Counter:
         return False
 
     def postprocess(self):
-        print("")
         print(self._title)
         print("-" * len(self._title))
         for name, rule in self._rules:
@@ -107,6 +115,28 @@ class Counter:
                 "others:", self._other))
             for msg in self._other_msgs:
                 print "     ", msg.host, msg.program, msg.message
+
+
+class Runner:
+    """
+    Container for a number of log processors.
+    """
+    def __init__(self):
+        self.processors = []
+
+    def add(self, processor):
+        self.processors.append(processor)
+
+    def run(self, input):
+        for m in input:
+            if m == "\n":
+                continue
+            msg = parser.parseString(m.strip())
+            for p in self.processors:
+                p.process(msg)
+
+        for p in self.processors:
+            p.postprocess()
 
 
 class Rule:
@@ -213,57 +243,4 @@ facility = Field("facility")
 program = Field("program")
 message = Field("message")
 host = Field("host")
-
-printer = Printer()
-printer.discard(
-    # DBQ Router log format is retarded, fields don't match.
-    # Thankfully it will probably blow a cap soon, like HC.
-    # Ignore all VPN messages from both routers.
-    (program == "dbq-router") & (message.match("SYSLOG_NK-\(VPN Log\)")),
-    (host == "hc-router") & (program == "VPN"),
-
-    # Ignore some Puppet log messages.
-    (program == "puppet-agent") & message.match("Finished catalog run "),
-    (program == "puppet-master") & (severity == "notice") & message.match("Compiled catalog for "),
-
-    # Why are debug messages even being logged?
-    (program == "imapd-ssl") & (severity == "debug"),
-
-    # Maybe we do want to know about some of these?
-    (program == "exim") & (severity == "notice"),
-
-    # Ignore INFO messages from some programs.
-    (program == ["FaxGetty", "rsyslogd", "CRON", "imapd-ssl", "exim",
-                 "kernel", "smartd"]) & (severity == "info"),
-
-    # Ignore INFO messages from some facilities.
-    (facility == ["auth", "authpriv", "cron"]) & (severity == "info"))
-
-counter= Counter("exim notices", print_other=True)
-counter.require((program == "exim") & (severity == "notice"))
-
-# Count certain exim notices.
-counter.count("unroutable address", message.match(".*Unrouteable address$"))
-counter.count("relay not permitted", message.match(".*relay not permitted$"))
-counter.count("syntactically invalid", message.contains("syntactically invalid argument"))
-counter.count("synchronization error", message.match("SMTP protocol synchronization error"))
-
-
-def main():
-    import sys
-
-    for m in sys.stdin:
-        if m == "\n":
-            continue
-        msg = parser.parseString(m.strip())
-        printer.process(msg)
-        counter.process(msg)
-
-    counter.postprocess()
-
-
-if __name__ == "__main__":
-    import sys
-    main()
-    sys.exit(0)
 
