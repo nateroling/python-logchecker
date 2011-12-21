@@ -3,7 +3,7 @@ import process
 from process import Counter, run
 from process import message
 
-counter= Counter("exim notices", print_other=True)
+counter= Counter("exim notices")
 counter.require((process.program == "exim") & (process.severity == "notice"))
 
 # Count certain exim notices.

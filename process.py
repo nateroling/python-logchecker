@@ -75,9 +75,10 @@ class Printer(Processor):
 
 class Counter(Processor):
 
-    def __init__(self, title="Counted", print_other = False):
+    def __init__(self, title="Counted", print_other=True, print_zero=False):
         self._title = title
         self._print_other = print_other
+        self._print_zero = print_zero
         self._preconditions = []
         self._rules = []
         self._counts = defaultdict(int)
@@ -104,15 +105,23 @@ class Counter(Processor):
         self._other_msgs.append(msg)
         return False
 
+    def _matched_any(self):
+        return any(self._counts.values()) or self._other
+
+    def _print_count(self, name, value):
+        if value > 0 or self._print_zero:
+            print("{1:>5} {0}".format(name, value))
+
+
     def postprocess(self):
+        if not self._matched_any() and not self._print_zero:
+            return
         print(self._title)
         print("-" * len(self._title))
         for name, rule in self._rules:
-            print("{1:>5} {0}".format(
-                name, self._counts[name]))
-        if self._print_other and self._other > 0:
-            print("{1:>5} {0}".format(
-                "others:", self._other))
+            self._print_count(name, self._counts[name])
+        if self._print_other:
+            self._print_count("others", self._other)
             for msg in self._other_msgs:
                 print "     ", msg.host, msg.program, msg.message
 
