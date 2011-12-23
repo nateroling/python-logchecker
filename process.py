@@ -70,7 +70,9 @@ class Printer(Processor):
 
     def process(self, msg):
         if not self.should_discard(msg):
-            print msg.host, msg.program, msg.message
+            print "%s %s %s: %s [%s.%s]" % (msg.time.strftime("%I:%M%P"),
+                                        msg.host, msg.program, msg.message,
+                                        msg.facility, msg.severity)
 
 
 class Counter(Processor):
