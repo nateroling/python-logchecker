@@ -25,7 +25,11 @@ printer.discard(
                  "kernel", "smartd"]) & (severity == "info"),
 
     # Ignore INFO messages from some facilities.
-    (facility == ["auth", "authpriv", "cron"]) & (severity == "info"))
+    (facility == ["auth", "authpriv", "cron"]) & (severity == "info"),
+
+    # Ignore successful sudo commands.
+    (program=="sudo") & message.match(".*TTY=.*PWD=.*USER=.*COMMAND=")
+    )
 
 if __name__ == "__main__":
     run(printer)
