@@ -5417,3 +5417,5 @@
 2011-12-07T14:33:31.893580-06:00 rabo authpriv.info sshd[28484]:  pam_unix(sshd:session): session opened for user nroling by (uid=0)
 2011-12-07T14:33:55.824559-06:00 rabo authpriv.notice sudo[-]:  pam_unix(sudo:auth): authentication failure; logname=nroling uid=0 euid=0 tty=/dev/pts/0 ruser=nroling rhost=  user=nroling
 2011-12-07T14:34:00.200359-06:00 rabo authpriv.notice sudo[-]:   nroling : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/cp everything_monitoring /tmp/
+2011-12-26T21:27:48.337883-06:00 rabo daemon.crit apcupsd[1202]:  Power failure.
+2011-12-26T21:27:50.077992-06:00 rabo daemon.alert apcupsd[1202]:  Power is back. UPS running on mains.

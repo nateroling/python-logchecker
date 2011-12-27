@@ -34,7 +34,14 @@ printer.discard(
     (program == "cron-apt") & (severity == "notice"),
 
     # Ignore epmd running message.
-    (program == "epmd") & message.match("epmd: epmd running - daemon = 1"))
+    (program == "epmd") & message.match("epmd: epmd running - daemon = 1"),
+
+    # Ignore some apcupsd messages.
+    (program == "apcupsd") & message.match(
+        "Power failure\.",
+        "Power is back\. UPS running on mains.")
+
+    )
 
 if __name__ == "__main__":
     run(printer)
