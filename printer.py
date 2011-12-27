@@ -28,8 +28,13 @@ printer.discard(
     (facility == ["auth", "authpriv", "cron"]) & (severity == "info"),
 
     # Ignore successful sudo commands.
-    (program=="sudo") & message.match(".*TTY=.*PWD=.*USER=.*COMMAND=")
-    )
+    (program == "sudo") & message.match(".*TTY=.*PWD=.*USER=.*COMMAND="),
+
+    # Ignore cron-apt notices.
+    (program == "cron-apt") & (severity == "notice"),
+
+    # Ignore epmd running message.
+    (program == "epmd") & message.match("epmd: epmd running - daemon = 1"))
 
 if __name__ == "__main__":
     run(printer)
