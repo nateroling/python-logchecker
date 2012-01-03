@@ -10,6 +10,10 @@ printer.discard(
     (program == "dbq-router") & (message.match("SYSLOG_NK-\(VPN Log\)")),
     (host == "hc-router") & (program == "VPN"),
 
+    # Ignore VPN Logins/Logouts
+    (program == "dbq-router") & (message.match(".* log in PPTP Server\.")),
+    (program == "dbq-router") & (message.match(".* log out PPTP Server\.")),
+
     # Ignore some Puppet log messages.
     (program == "puppet-agent") & message.match("Finished catalog run "),
     (program == "puppet-master") & (severity == "notice") & message.match("Compiled catalog for "),

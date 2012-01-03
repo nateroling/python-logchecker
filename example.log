@@ -5419,3 +5419,5 @@
 2011-12-07T14:34:00.200359-06:00 rabo authpriv.notice sudo[-]:   nroling : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/cp everything_monitoring /tmp/
 2011-12-26T21:27:48.337883-06:00 rabo daemon.crit apcupsd[1202]:  Power failure.
 2011-12-26T21:27:50.077992-06:00 rabo daemon.alert apcupsd[1202]:  Power is back. UPS running on mains.
+2012-01-02T06:28:09-06:00 2012 daemon.err dbq-router[-]:  SYSLOG_NK-(System Log)Remote Client [rnemec] log in PPTP Server.
+2012-01-02T13:18:57-06:00 2012 daemon.err dbq-router[-]:  SYSLOG_NK-(System Log)Remote Client [rnemec] log out PPTP Server.
