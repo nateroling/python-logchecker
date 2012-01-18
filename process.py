@@ -257,7 +257,7 @@ _s = Suppress
 
 parser = (_datetime("time") + _hostname("host") + _facility("facility") +
           _s(".") + _severity("severity") + _program("program") + _s("[") +
-          _pid("pid") + _s("]: ") + Regex(r".*")("message"))
+          _pid("pid") + _s("]:") + Regex(r".*")("message"))
 
 
 severity = Field("severity")
