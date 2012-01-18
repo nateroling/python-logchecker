@@ -1,5 +1,6 @@
 import sys
-from pyparsing import Word, nums, alphas, Regex, Suppress, Optional
+from pyparsing import Word, nums, alphas, Regex, Suppress, Optional,\
+        ParseException
 from dateutil.parser import parse as parse_date
 import re
 from collections import defaultdict
@@ -50,6 +51,9 @@ class Processor:
     def process(self, msg):
         pass
 
+    def parse_failed(self, msg):
+        pass
+
     def postprocess(self):
         pass
 
@@ -73,6 +77,9 @@ class Printer(Processor):
             print "%s %s %s: %s [%s.%s]" % (msg.time.strftime("%I:%M%P"),
                                         msg.host, msg.program, msg.message,
                                         msg.facility, msg.severity)
+
+    def parse_failed(self, rawmsg):
+        print "FAILED TO PARSE: %s" % rawmsg
 
 
 class Counter(Processor):
@@ -142,9 +149,13 @@ class Runner:
         for m in input:
             if m == "\n":
                 continue
-            msg = parser.parseString(m.strip())
-            for p in self.processors:
-                p.process(msg)
+            try:
+                msg = parser.parseString(m.strip())
+                for p in self.processors:
+                    p.process(msg)
+            except ParseException:
+                for p in self.processors:
+                    p.parse_failed(m.strip())
 
         for p in self.processors:
             p.postprocess()
