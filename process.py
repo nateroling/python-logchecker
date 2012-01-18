@@ -251,7 +251,7 @@ _datetime = Word(nums + "-+T:.").addParseAction(lambda t: parse_date(t[0]))
 _hostname = Word(alphas + nums + "-")
 _facility = Word(alphas + nums)
 _severity = Word(alphas).addParseAction(lambda t: [Severity(x) for x in t])
-_program = Optional(Word(alphas + nums + "_-"))
+_program = Optional(Word(alphas + nums + "_-."))
 _pid = Word(nums + "-")
 _s = Suppress
 

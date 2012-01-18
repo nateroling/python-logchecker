@@ -5423,3 +5423,5 @@
 2012-01-02T13:18:57-06:00 2012 daemon.err dbq-router[-]:  SYSLOG_NK-(System Log)Remote Client [rnemec] log out PPTP Server.
 This line is horribly broken.
 2012-01-17T16:17:16.797587-06:00 rabo daemon.err mysqld[-]: 
+2012-01-18T14:12:43.074571-06:00 rabo daemon.err rpc.statd[9415]:  Caught signal 15, un-registering and exiting
+
