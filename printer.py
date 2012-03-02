@@ -25,8 +25,9 @@ printer.discard(
     (program == "exim") & (severity == "notice"),
 
     # Ignore INFO messages from some programs.
-    (program == ["FaxGetty", "rsyslogd", "CRON", "imapd-ssl", "exim",
-                 "kernel", "smartd", "nagios3"]) & (severity == "info"),
+    (program == [
+        "FaxGetty", "rsyslogd", "CRON", "imapd-ssl", "exim", "kernel",
+        "smartd", "nagios3", "spamd"]) & (severity == "info"),
 
     # Ignore INFO messages from some facilities.
     (facility == ["auth", "authpriv", "cron"]) & (severity == "info"),
