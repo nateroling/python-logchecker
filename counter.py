@@ -8,6 +8,7 @@ counter.require((process.program == "exim") & (process.severity == "notice"))
 
 # Count certain exim notices.
 counter.count("unroutable address", message.match(".*Unrouteable address$"))
+counter.count("spam", message.match(".*rejected after DATA: Spam score \d+"))
 counter.count("relay not permitted", message.match(".*relay not permitted$"))
 counter.count("syntactically invalid", message.contains("syntactically invalid argument"))
 counter.count("synchronization error", message.match("SMTP protocol synchronization error"))
