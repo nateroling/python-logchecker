@@ -46,6 +46,10 @@ printer.discard(
         "Power failure\.",
         "Power is back\. UPS running on mains.")
 
+    # Ignore ioctl messages from Debian bug 665850
+    (facility == "kern") & (severity == "warning") & message.match(
+        "sending ioctl 1261 to a partition"),
+
     )
 
 if __name__ == "__main__":
