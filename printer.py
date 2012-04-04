@@ -44,11 +44,11 @@ printer.discard(
     # Ignore some apcupsd messages.
     (program == "apcupsd") & message.match(
         "Power failure\.",
-        "Power is back\. UPS running on mains.")
+        "Power is back\. UPS running on mains."),
 
     # Ignore ioctl messages from Debian bug 665850
     (facility == "kern") & (severity == "warning") & message.match(
-        "sending ioctl 1261 to a partition"),
+        "sending ioctl 1261 to a partition")
 
     )
 
