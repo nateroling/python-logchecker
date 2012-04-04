@@ -5424,4 +5424,5 @@
 This line is horribly broken.
 2012-01-17T16:17:16.797587-06:00 rabo daemon.err mysqld[-]: 
 2012-01-18T14:12:43.074571-06:00 rabo daemon.err rpc.statd[9415]:  Caught signal 15, un-registering and exiting
+2012-04-04T07:00:01.770310-05:00 rabo kern.warning kernel[-]:  [482700.256839] lvcreate: sending ioctl 1261 to a partition!
 

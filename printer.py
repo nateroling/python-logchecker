@@ -48,7 +48,7 @@ printer.discard(
 
     # Ignore ioctl messages from Debian bug 665850
     (facility == "kern") & (severity == "warning") & message.match(
-        "sending ioctl 1261 to a partition")
+        "\[[0-9]+.[0-9]+\] lvcreate: sending ioctl 1261 to a partition!")
 
     )
 
