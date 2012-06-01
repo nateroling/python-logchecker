@@ -5425,4 +5425,6 @@ This line is horribly broken.
 2012-01-17T16:17:16.797587-06:00 rabo daemon.err mysqld[-]: 
 2012-01-18T14:12:43.074571-06:00 rabo daemon.err rpc.statd[9415]:  Caught signal 15, un-registering and exiting
 2012-04-04T07:00:01.770310-05:00 rabo kern.warning kernel[-]:  [482700.256839] lvcreate: sending ioctl 1261 to a partition!
-
+2012-05-30T17:01:21.061317-05:00 rabo daemon.err mysqld[-]:  120530 17:01:21 [Note] Slave I/O thread: Failed reading log event, reconnecting to retry, log 'mysql-bin.000580' at position 121503
+2012-05-31T04:22:40.211100-05:00 rabo daemon.err mysqld[-]:  120531  4:22:40 [ERROR] Slave I/O: error reconnecting to master 'repl@10.0.0.12:3306' - retry-time: 60  retries: 86400, Error_code: 2013
+2012-05-31T04:39:52.306567-05:00 rabo daemon.err mysqld[-]:  120531  4:39:52 [Note] Slave: connected to master 'repl@10.0.0.12:3306',replication resumed in log 'mysql-bin.000580' at position 147503

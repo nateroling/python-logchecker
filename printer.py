@@ -48,7 +48,13 @@ printer.discard(
 
     # Ignore ioctl messages from Debian bug 665850
     (facility == "kern") & (severity == "warning") & message.match(
-        "\[[0-9]+.[0-9]+\] lvcreate: sending ioctl 1261 to a partition!")
+        "\[[0-9]+.[0-9]+\] lvcreate: sending ioctl 1261 to a partition!"),
+
+    # Ignore mysql slave messages, nagios watches this now.
+    (program == "mysqld") & message.contains(
+        "[Note] Slave I/O thread: Failed reading log event, reconnecting to retry",
+        "[ERROR] Slave I/O: error reconnecting to master",
+        "[Note] Slave: connected to master")
 
     )
 
