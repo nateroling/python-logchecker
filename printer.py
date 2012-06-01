@@ -15,8 +15,12 @@ printer.discard(
     (program == "dbq-router") & (message.match(".* log out PPTP Server\.")),
 
     # Ignore some Puppet log messages.
-    (program == "puppet-agent") & message.match("Finished catalog run "),
     (program == "puppet-master") & (severity == "notice") & message.match("Compiled catalog for "),
+    (program == "puppet-agent") & message.match(
+        "Finished catalog run ",
+        "Caught TERM; calling stop",
+        "Reopening log files",
+        "Starting Puppet client version"),
 
     # Why are debug messages even being logged?
     (program == "imapd-ssl") & (severity == "debug"),

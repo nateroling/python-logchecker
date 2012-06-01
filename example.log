@@ -5428,3 +5428,6 @@ This line is horribly broken.
 2012-05-30T17:01:21.061317-05:00 rabo daemon.err mysqld[-]:  120530 17:01:21 [Note] Slave I/O thread: Failed reading log event, reconnecting to retry, log 'mysql-bin.000580' at position 121503
 2012-05-31T04:22:40.211100-05:00 rabo daemon.err mysqld[-]:  120531  4:22:40 [ERROR] Slave I/O: error reconnecting to master 'repl@10.0.0.12:3306' - retry-time: 60  retries: 86400, Error_code: 2013
 2012-05-31T04:39:52.306567-05:00 rabo daemon.err mysqld[-]:  120531  4:39:52 [Note] Slave: connected to master 'repl@10.0.0.12:3306',replication resumed in log 'mysql-bin.000580' at position 147503
+2012-06-01T11:42:45.835855-05:00 rabo daemon.notice puppet-agent[3277]:  Caught TERM; calling stop
+2012-06-01T11:42:49.088948-05:00 rabo daemon.notice puppet-agent[24617]:  Reopening log files
+2012-06-01T11:42:49.305928-05:00 rabo daemon.notice puppet-agent[24617]:  Starting Puppet client version 2.6.2
