@@ -131,6 +131,7 @@ class Counter(Processor):
             self._print_count("others", self._other)
             for msg in self._other_msgs:
                 print "     ", msg.host, msg.program, msg.message
+        print("")
 
 
 class Runner:

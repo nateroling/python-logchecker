@@ -58,7 +58,12 @@ printer.discard(
     (program == "mysqld") & message.contains(
         "[Note] Slave I/O thread: Failed reading log event, reconnecting to retry",
         "[ERROR] Slave I/O: error reconnecting to master",
-        "[Note] Slave: connected to master")
+        "[Note] Slave: connected to master"),
+
+    # Ignore spamd restarting
+    (program == "spamd.pid") & message.match(
+        "spamd: restarting using '/usr/sbin/spamd --create-prefs "\
+        "--max-children 5 --helper-home-dir -d --pidfile=/var/run/spamd.pid'")
 
     )
 
