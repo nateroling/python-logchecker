@@ -74,9 +74,7 @@ class Printer(Processor):
 
     def process(self, msg):
         if not self.should_discard(msg):
-            print "%s %s %s: %s [%s.%s]" % (msg.time.strftime("%I:%M%P"),
-                                        msg.host, msg.program, msg.message,
-                                        msg.facility, msg.severity)
+            print msg.raw
 
     def parse_failed(self, rawmsg):
         print "FAILED TO PARSE: %s" % rawmsg
@@ -150,7 +148,9 @@ class Runner:
             if m == "\n":
                 continue
             try:
-                msg = parser.parseString(m.strip())
+                raw = m.strip()
+                msg = parser.parseString(raw)
+                msg.raw = raw
                 for p in self.processors:
                     p.process(msg)
             except ParseException:
