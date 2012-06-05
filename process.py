@@ -151,7 +151,7 @@ class Runner:
             try:
                 raw = m.strip()
                 msg = parser.parseString(raw)
-                msg.raw = raw
+                msg['raw'] = raw
                 for p in self.processors:
                     p.process(msg)
             except ParseException:
