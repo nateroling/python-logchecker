@@ -63,7 +63,10 @@ printer.discard(
     # Ignore spamd restarting
     (program == "spamd.pid") & message.match(
         "spamd: restarting using '/usr/sbin/spamd --create-prefs "\
-        "--max-children 5 --helper-home-dir -d --pidfile=/var/run/spamd.pid'")
+        "--max-children 5 --helper-home-dir -d --pidfile=/var/run/spamd.pid'"),
+
+    (program == "famd") & message.match(
+        "stat on \".*courier\.lock\" failed: No such file or directory")
 
     )
 
