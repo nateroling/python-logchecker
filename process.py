@@ -91,10 +91,11 @@ class Counter(Processor):
         self._counts = defaultdict(int)
         self._other = 0
         self._other_msgs = []
+        self.output = []
 
-    def count(self, name, *rules):
+    def count(self, name, *rules, **kwargs):
         for rule in rules:
-            self._rules.append((name, rule))
+            self._rules.append((name, rule, kwargs.get('threshold')))
 
     def require(self, *rules):
         for rule in rules:
@@ -104,7 +105,7 @@ class Counter(Processor):
         for rule in self._preconditions:
             if not rule(msg):
                 return False
-        for name, rule in self._rules:
+        for name, rule, threshold in self._rules:
             if rule(msg):
                 self._counts[name] += 1
                 return True
@@ -115,23 +116,25 @@ class Counter(Processor):
     def _matched_any(self):
         return any(self._counts.values()) or self._other
 
-    def _print_count(self, name, value):
+    def _output_count(self, name, value, threshold=None):
+        if threshold and value <= threshold:
+            return
         if value > 0 or self._print_zero:
-            print("{1:>5} {0}".format(name, value))
-
+            self.output.append("{1:>5} {0}".format(name, value))
 
     def postprocess(self):
-        if not self._matched_any() and not self._print_zero:
-            return
-        print(self._title)
-        print("-" * len(self._title))
-        for name, rule in self._rules:
-            self._print_count(name, self._counts[name])
+        for name, rule, threshold in self._rules:
+            self._output_count(name, self._counts[name], threshold)
         if self._print_other:
-            self._print_count("others", self._other)
+            self._output_count("others", self._other)
             for msg in self._other_msgs:
-                print "     ", msg.host, msg.program, msg.message
-        print("")
+                self.output.append("     ", msg.host, msg.program, msg.message)
+        if self.output:
+            print(self._title)
+            print("-" * len(self._title))
+            for line in self.output:
+                print line
+            print("")
 
 
 class Runner:
