@@ -5437,3 +5437,4 @@ This line is horribly broken.
 2012-06-05T09:27:10-05:00 trout mail.info spamd[370]:  spamd: checking message <8B6BC9248EA61D4FB3E9115B99C9A9920410D271@EXCHANGE.ahc.com> for Debian-exim:102
 2012-06-05T09:27:11-05:00 trout mail.info spamd[370]:  spamd: clean message (0.1/5.0) for Debian-exim:102 in 0.9 seconds, 494248 bytes.
 2012-07-04T22:00:46-05:00 trout daemon.err famd[1185]:  stat on "/data/home/nroling/Maildir/./tmp/courier.lock" failed: No such file or directory
+2011-12-06T14:16:16-06:00 trout mail.notice exim[8200]:  (something under others)

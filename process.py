@@ -128,7 +128,7 @@ class Counter(Processor):
         if self._print_other:
             self._output_count("others", self._other)
             for msg in self._other_msgs:
-                self.output.append("     ", msg.host, msg.program, msg.message)
+                self.output.append("      %s %s %s" % (msg.host, msg.program, msg.message))
         if self.output:
             print(self._title)
             print("-" * len(self._title))
