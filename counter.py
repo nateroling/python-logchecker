@@ -23,6 +23,12 @@ exim_counter.count(
     threshold=5)
 
 exim_counter.count(
+    "syntactically invalid - no argument",
+    message.contains("syntactically invalid argument") &
+    message.contains("no argument given"),
+    threshold=100)
+
+exim_counter.count(
     "syntactically invalid",
     message.contains("syntactically invalid argument"),
     threshold=5)
