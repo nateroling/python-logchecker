@@ -4,15 +4,12 @@ from process import program, message, host, severity, facility
 
 printer = Printer()
 printer.discard(
-    # DBQ Router log format is retarded, fields don't match.
-    # Thankfully it will probably blow a cap soon, like HC.
     # Ignore all VPN messages from both routers.
-    (program == "dbq-router") & (message.match("SYSLOG_NK-\(VPN Log\)")),
-    (host == "hc-router") & (program == "VPN"),
+    (host == ["dbq-router", "hc-router"]) & (program == "VPN"),
 
     # Ignore VPN Logins/Logouts
-    (program == "dbq-router") & (message.match(".* log in PPTP Server\.")),
-    (program == "dbq-router") & (message.match(".* log out PPTP Server\.")),
+    (host == "dbq-router") & (message.match(".* log in PPTP Server\.")),
+    (host == "dbq-router") & (message.match(".* log out PPTP Server\.")),
 
     # Ignore some Puppet log messages.
     (program == "puppet-master") & (severity == "notice") & message.match("Compiled catalog for "),
