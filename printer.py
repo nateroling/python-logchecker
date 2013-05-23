@@ -4,6 +4,9 @@ from process import program, message, host, severity, facility
 
 printer = Printer()
 printer.discard(
+    # Ignore last message repeated junk
+    (host == "last") & (message.match("repeated \d times")),
+
     # Ignore all VPN messages from both routers.
     (host == ["dbq-router", "hc-router"]) & (program == "VPN"),
 
