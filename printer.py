@@ -15,7 +15,11 @@ printer.discard(
     (host == "dbq-router") & (message.match(".* log out PPTP Server\.")),
 
     # Ignore some Puppet log messages.
-    (program == "puppet-master") & (severity == "notice") & message.match("Compiled catalog for "),
+    (program == "puppet-master") & (severity == "notice") & message.match(
+        "Compiled catalog for "
+        "Caught TERM; calling stop"
+        "Reopening log files"
+        "Starting Puppet master version "),
     (program == "puppet-agent") & message.match(
         "Finished catalog run ",
         "Caught TERM; calling stop",
