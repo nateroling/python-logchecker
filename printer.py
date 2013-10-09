@@ -16,9 +16,9 @@ printer.discard(
 
     # Ignore some Puppet log messages.
     (program == "puppet-master") & (severity == "notice") & message.match(
-        "Compiled catalog for "
-        "Caught TERM; calling stop"
-        "Reopening log files"
+        "Compiled catalog for ",
+        "Caught TERM; calling stop",
+        "Reopening log files",
         "Starting Puppet master version "),
     (program == "puppet-agent") & message.match(
         "Finished catalog run ",

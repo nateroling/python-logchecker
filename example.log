@@ -102,8 +102,6 @@
 2011-12-06T14:18:24-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:64.198.85.28]
 2011-12-06T14:18:26-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=rnemec, ip=[::ffff:64.198.85.28], port=[49487], protocol=IMAP
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #762: received Delete SA(0x5e4d621a) payload: deleting IPSEC State #767
-2011-12-06T14:18:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11828
-2011-12-06T14:18:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #762: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #762: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #769: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -114,14 +112,7 @@
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #769: [Tunnel Negotiation Info] Outbound SPI value = 5e4d621c
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #769: [Tunnel Negotiation Info] Outbound SPI value = 5e4d621c
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #769: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T14:18:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
-2011-12-06T14:18:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d621c
-2011-12-06T14:18:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = b397ffea
-2011-12-06T14:18:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T14:18:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T14:18:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #769: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T14:18:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #769: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #769: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T14:18:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #769: Dead Peer Detection (RFC 3706) enabled
@@ -339,15 +330,6 @@
 2011-12-06T15:17:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #770: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
 2011-12-06T15:17:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #770: IPsec SA established {ESP=>0x5e4d621d <0xabef5c12
 2011-12-06T15:17:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #762: received Delete SA(0x5e4d621c) payload: deleting IPSEC State #769
-2011-12-06T15:17:42-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11829
-2011-12-06T15:17:42-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-06T15:17:42-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
-2011-12-06T15:17:42-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d621d
-2011-12-06T15:17:42-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = abef5c12
-2011-12-06T15:17:42-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T15:17:42-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T15:17:42-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-06T15:17:42-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T15:18:38-06:00 trout mail.info exim[10577]:  1RY2PO-0002kb-5W <= troling@openspec.us H=([10.0.0.105]) [10.0.0.1] P=esmtpsa X=TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32 DN="" A=plain_saslauthd_server:troling S=978 id=4EDE86B6.5030209@openspec.us
 2011-12-06T15:18:38-06:00 trout mail.info exim[10578]:  1RY2PO-0002kb-5W => rkane <rkane@openspec.us> R=local_user T=maildir_home
 2011-12-06T15:18:38-06:00 trout mail.info exim[10578]:  1RY2PO-0002kb-5W Completed
@@ -553,9 +535,6 @@
 2011-12-06T16:15:01-06:00 trout cron.info [12619]:  (remotebackup) CMD (/usr/bin/rdiff-backup root@10.1.0.11::/data /backup/rabo/data)
 2011-12-06T16:15:03.284424-06:00 rabo auth.info sshd[15912]:  Accepted publickey for root from 10.0.0.12 port 45679 ssh2
 2011-12-06T16:15:03.285353-06:00 rabo authpriv.info sshd[15912]:  pam_unix(sshd:session): session opened for user root by (uid=0)
-2011-12-06T16:16:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11830
-2011-12-06T16:16:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-06T16:16:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #762: received Delete SA(0x5e4d621c) payload: deleting IPSEC State #769
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #762: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #762: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
@@ -567,13 +546,7 @@
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #771: [Tunnel Negotiation Info] Outbound SPI value = 5e4d621e
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #771: [Tunnel Negotiation Info] Outbound SPI value = 5e4d621e
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #771: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T16:16:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d621e
-2011-12-06T16:16:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 47f5aa96
-2011-12-06T16:16:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T16:16:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T16:16:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #771: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T16:16:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #771: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #771: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T16:16:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #771: Dead Peer Detection (RFC 3706) enabled
@@ -610,10 +583,6 @@
 2011-12-06T16:20:02-06:00 trout authpriv.info CRON[12658]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T16:20:07.448071-06:00 rabo authpriv.info CRON[15931]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T16:20:55-06:00 trout mail.info imapd-ssl[-]:  TIMEOUT, user=rkane, ip=[::ffff:64.198.85.28], headers=450, body=0, rcvd=1212, sent=594034, time=2486, starttls=1
-2011-12-06T16:21:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
-2011-12-06T16:21:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Received Vendor ID payload Type = [Dead Peer Detection]
-2011-12-06T16:21:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 1st packet
-2011-12-06T16:21:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 2nd packet
 2011-12-06T16:21:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #762: received Delete SA(0x5e4d621d) payload: deleting IPSEC State #770
 2011-12-06T16:21:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #772: initiating Main Mode to replace #762
 2011-12-06T16:21:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #772: [Tunnel Negotiation Info] >>> Initiator Send Main Mode 1st packet
@@ -634,61 +603,10 @@
 2011-12-06T16:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #772: [Tunnel Negotiation Info] Main Mode Phase 1 SA Established
 2011-12-06T16:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #772: [Tunnel Negotiation Info] Main Mode Phase 1 SA Established
 2011-12-06T16:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #772: ISAKMP SA established
-2011-12-06T16:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 3rd packet
-2011-12-06T16:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Main Mode 4th packet
-2011-12-06T16:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 5th packet
-2011-12-06T16:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Main mode peer ID is ID_IPV4_ADDR: '64.198.75.72'
-2011-12-06T16:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 6th packet
-2011-12-06T16:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Main Mode Phase 1 SA Established
-2011-12-06T16:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Initiator Cookies = 5e59 a7c3 1b9d 25c8
-2011-12-06T16:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Responder Cookies = d64 f20 20be 76f4
 2011-12-06T16:21:52-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:10.0.0.1]
 2011-12-06T16:21:52-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=troling, ip=[::ffff:10.0.0.1], port=[53510], protocol=IMAP
 2011-12-06T16:21:52-06:00 trout mail.info imapd-ssl[-]:  DISCONNECTED, user=troling, ip=[::ffff:10.0.0.1], headers=13362, body=622415, rcvd=25338, sent=704928, time=33726, starttls=1
 2011-12-06T16:22:38-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #772: received Delete SA(0x5e4d621e) payload: deleting IPSEC State #771
-2011-12-06T16:22:37-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)received Delete SA payload: deleting ISAKMP State #11822
-2011-12-06T16:22:37-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
-2011-12-06T16:22:37-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Initiating Main Mode
-2011-12-06T16:22:37-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Main Mode 1st packet
-2011-12-06T16:22:43-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Initiating Main Mode
-2011-12-06T16:22:43-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Main Mode 1st packet
-2011-12-06T16:22:53-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
-2011-12-06T16:22:53-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Received Vendor ID payload Type = [Dead Peer Detection]
-2011-12-06T16:22:53-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 1st packet
-2011-12-06T16:22:54-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 2nd packet
-2011-12-06T16:22:54-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Phase 1 message is part of an unknown exchange
-2011-12-06T16:22:54-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Ignoring Vendor ID payload [1ef283f83549b5ff...]
-2011-12-06T16:22:54-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Received Vendor ID payload Type = [Dead Peer Detection]
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Main Mode 2nd packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Main Mode 3rd packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Discarding duplicate packet; already STATE_MAIN_I2
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 3rd packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Main Mode 4th packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Main Mode 4th packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Main Mode 5th packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 5th packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Main mode peer ID is ID_IPV4_ADDR: '64.198.75.72'
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 6th packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Main Mode Phase 1 SA Established
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Initiator Cookies = 9bb4 3357 ffa5 20ea
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Responder Cookies = fdda 41d1 c715 55b7
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Receive Main Mode 6th packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Main mode peer ID is ID_IPV4_ADDR: '64.198.75.72'
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Main Mode Phase 1 SA Established
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Initiator Cookies = 55a3 7252 1bc0 bcb
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Responder Cookies = ff8f 5cc9 eab0 cb54
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+TUNNEL+PFS
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6220
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = cb2062f3
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d621f
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 81f05c83
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T16:22:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-06T16:22:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #772: received Delete SA(0x5e4d621e) payload: deleting IPSEC State #771
 2011-12-06T16:22:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #771: down-client output: Killed
 2011-12-06T16:22:54-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #771: down-client output: Killed
@@ -772,23 +690,6 @@
 2011-12-06T16:22:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #776: ERROR: netlink XFRM_MSG_NEWPOLICY response for flow tun.100@64.198.75.72 included errno 17: File exists
 2011-12-06T16:22:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #776: up-client output: Killed
 2011-12-06T16:23:08-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #776: [Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T16:23:07-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
-2011-12-06T16:23:07-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T16:23:08-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-06T16:23:08-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Phase 1 message is part of an unknown exchange
-2011-12-06T16:23:08-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Quick Mode I1 message is unacceptable because it uses a previously used Message ID 0x5d41589a (perhaps this is a duplicated packet)
-2011-12-06T16:23:08-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Discarding duplicate packet; already STATE_QUICK_R2
-2011-12-06T16:23:08-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
-2011-12-06T16:23:20-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
-2011-12-06T16:23:20-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6221
-2011-12-06T16:23:20-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 560c5834
-2011-12-06T16:23:20-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T16:23:33-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
-2011-12-06T16:23:33-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T16:23:33-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-06T16:23:33-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Phase 1 message is part of an unknown exchange
-2011-12-06T16:23:33-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Discarding duplicate packet; already STATE_QUICK_R2
-2011-12-06T16:23:33-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T16:23:08-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #776: [Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
 2011-12-06T16:23:08-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #776: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
 2011-12-06T16:23:08-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #776: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
@@ -1025,8 +926,6 @@
 2011-12-06T17:20:07.240567-06:00 rabo authpriv.info CRON[17911]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T17:20:31-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:10.0.0.1]
 2011-12-06T17:20:31-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=tpape, ip=[::ffff:10.0.0.1], port=[55853], protocol=IMAP
-2011-12-06T17:23:03-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11838
-2011-12-06T17:23:03-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-06T17:23:04-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #774: max number of retransmissions (2) reached STATE_MAIN_R1
 2011-12-06T17:23:04-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T17:23:04-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
@@ -1034,17 +933,10 @@
 2011-12-06T17:23:04-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-06T17:23:04-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: responding to Quick Mode
 2011-12-06T17:23:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: [Tunnel Negotiation Info] Inbound  SPI value = c02e72f1
-2011-12-06T17:23:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-06T17:23:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: [Tunnel Negotiation Info] Inbound  SPI value = c02e72f1
 2011-12-06T17:23:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6222
 2011-12-06T17:23:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6222
 2011-12-06T17:23:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T17:23:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6222
-2011-12-06T17:23:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = c02e72f1
-2011-12-06T17:23:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T17:23:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T17:23:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-06T17:23:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T17:23:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-06T17:23:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T17:23:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #779: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -1208,11 +1100,8 @@
 2011-12-06T18:20:01.458722-06:00 rabo authpriv.info CRON[19881]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T18:20:01-06:00 trout authpriv.info CRON[16774]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T18:20:06.318695-06:00 rabo authpriv.info CRON[19882]:  pam_unix(cron:session): session closed for user logcheck
-2011-12-06T18:22:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11839
-2011-12-06T18:22:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-06T18:22:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: received Delete SA(0x5e4d6221) payload: deleting IPSEC State #778
 2011-12-06T18:22:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
-2011-12-06T18:22:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-06T18:22:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T18:22:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #780: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-06T18:22:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #780: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -1222,13 +1111,7 @@
 2011-12-06T18:22:25-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #780: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6223
 2011-12-06T18:22:25-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #780: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6223
 2011-12-06T18:22:25-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #780: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T18:22:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6223
-2011-12-06T18:22:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 2182e625
-2011-12-06T18:22:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T18:22:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T18:22:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-06T18:22:25-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #780: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T18:22:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T18:22:25-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #780: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T18:22:25-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #780: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T18:22:25-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #780: Dead Peer Detection (RFC 3706) enabled
@@ -1360,10 +1243,7 @@
 2011-12-06T19:20:01-06:00 trout authpriv.info CRON[18738]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T19:20:01.941758-06:00 rabo authpriv.info CRON[21854]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T19:20:07.132684-06:00 rabo authpriv.info CRON[21853]:  pam_unix(cron:session): session closed for user logcheck
-2011-12-06T19:21:44-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11840
-2011-12-06T19:21:44-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: received Delete SA(0x5e4d6222) payload: deleting IPSEC State #779
-2011-12-06T19:21:44-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #781: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -1374,13 +1254,7 @@
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #781: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6224
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #781: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6224
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #781: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T19:21:44-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6224
-2011-12-06T19:21:44-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = b1188907
-2011-12-06T19:21:44-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T19:21:44-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T19:21:44-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #781: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T19:21:44-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #781: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #781: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T19:21:45-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #781: Dead Peer Detection (RFC 3706) enabled
@@ -1501,11 +1375,8 @@
 2011-12-06T20:20:01.975586-06:00 rabo cron.info [23822]:  (logcheck) CMD (   if [ -x /usr/sbin/logcheck ]; then nice -n10 /usr/sbin/logcheck; fi)
 2011-12-06T20:20:02.418794-06:00 rabo authpriv.info CRON[23819]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T20:20:07.240442-06:00 rabo authpriv.info CRON[23820]:  pam_unix(cron:session): session closed for user logcheck
-2011-12-06T20:20:56-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11841
-2011-12-06T20:20:56-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-06T20:20:57-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: received Delete SA(0x5e4d6223) payload: deleting IPSEC State #780
 2011-12-06T20:20:57-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
-2011-12-06T20:20:56-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-06T20:20:57-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T20:20:57-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #782: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-06T20:20:57-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #782: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -1515,12 +1386,6 @@
 2011-12-06T20:20:58-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #782: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6225
 2011-12-06T20:20:58-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #782: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6225
 2011-12-06T20:20:58-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #782: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T20:20:57-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6225
-2011-12-06T20:20:57-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = a280349a
-2011-12-06T20:20:57-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T20:20:57-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T20:20:57-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-06T20:20:57-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T20:20:58-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #782: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-06T20:20:58-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #782: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T20:20:58-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #782: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -1643,8 +1508,6 @@
 2011-12-06T21:20:01.646672-06:00 rabo authpriv.info CRON[25788]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T21:20:01-06:00 trout authpriv.info CRON[22649]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-06T21:20:06.846725-06:00 rabo authpriv.info CRON[25787]:  pam_unix(cron:session): session closed for user logcheck
-2011-12-06T21:20:10-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11842
-2011-12-06T21:20:10-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: received Delete SA(0x5e4d6224) payload: deleting IPSEC State #781
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
@@ -1654,15 +1517,8 @@
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #783: [Tunnel Negotiation Info] Inbound  SPI value = a72a8a8b
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #783: [Tunnel Negotiation Info] Inbound  SPI value = a72a8a8b
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #783: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6226
-2011-12-06T21:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #783: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6226
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #783: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T21:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6226
-2011-12-06T21:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = a72a8a8b
-2011-12-06T21:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T21:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T21:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-06T21:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #783: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #783: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T21:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #783: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -1788,9 +1644,6 @@
 2011-12-06T22:17:57-06:00 trout mail.info imapd-ssl[-]:  TIMEOUT, user=rnemec, ip=[::ffff:64.198.80.229], headers=0, body=0, rcvd=408, sent=6139, time=3571, starttls=1
 2011-12-06T22:18:27-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:64.198.80.229]
 2011-12-06T22:18:27-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=rnemec, ip=[::ffff:64.198.80.229], port=[37848], protocol=IMAP
-2011-12-06T22:19:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11843
-2011-12-06T22:19:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-06T22:19:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: received Delete SA(0x5e4d6225) payload: deleting IPSEC State #782
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
@@ -1802,13 +1655,7 @@
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #784: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6227
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #784: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6227
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #784: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T22:19:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6227
-2011-12-06T22:19:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 264264d4
-2011-12-06T22:19:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T22:19:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T22:19:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #784: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T22:19:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #784: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #784: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T22:19:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #784: Dead Peer Detection (RFC 3706) enabled
@@ -1981,10 +1828,7 @@
 2011-12-06T23:18:09-06:00 trout authpriv.info CRON[26488]:  pam_unix(cron:session): session closed for user root
 2011-12-06T23:18:27-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:64.198.80.229]
 2011-12-06T23:18:27-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=rnemec, ip=[::ffff:64.198.80.229], port=[47651], protocol=IMAP
-2011-12-06T23:18:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11844
-2011-12-06T23:18:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: received Delete SA(0x5e4d6226) payload: deleting IPSEC State #783
-2011-12-06T23:18:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #785: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -1995,13 +1839,7 @@
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #785: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6228
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #785: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6228
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #785: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T23:18:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6228
-2011-12-06T23:18:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 3a75d0fc
-2011-12-06T23:18:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-06T23:18:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-06T23:18:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #785: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-06T23:18:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #785: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #785: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-06T23:18:48-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #785: Dead Peer Detection (RFC 3706) enabled
@@ -2136,11 +1974,8 @@
 2011-12-07T00:17:49.531132-06:00 rabo authpriv.info sshd[31828]:  pam_unix(sshd:session): session closed for user root
 2011-12-07T00:17:49-06:00 trout authpriv.info CRON[28832]:  pam_unix(cron:session): session closed for user remotebackup
 2011-12-07T00:17:58-06:00 trout mail.info imapd-ssl[-]:  TIMEOUT, user=rnemec, ip=[::ffff:64.198.80.229], headers=0, body=0, rcvd=408, sent=6139, time=3571, starttls=1
-2011-12-07T00:18:01-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11845
-2011-12-07T00:18:01-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T00:18:01-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: received Delete SA(0x5e4d6227) payload: deleting IPSEC State #784
 2011-12-07T00:18:01-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
-2011-12-07T00:18:01-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T00:18:01-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T00:18:01-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #786: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T00:18:01-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #786: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -2150,12 +1985,6 @@
 2011-12-07T00:18:01-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #786: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6229
 2011-12-07T00:18:01-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #786: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6229
 2011-12-07T00:18:01-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #786: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T00:18:01-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6229
-2011-12-07T00:18:01-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 2698efe6
-2011-12-07T00:18:01-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T00:18:01-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T00:18:01-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T00:18:01-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T00:18:02-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #786: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-07T00:18:02-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #786: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T00:18:02-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #786: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -2175,9 +2004,6 @@
 2011-12-07T00:20:02-06:00 trout authpriv.info CRON[28872]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-07T00:20:03.661992-06:00 rabo authpriv.info CRON[31847]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-07T00:20:08.032769-06:00 rabo authpriv.info CRON[31848]:  pam_unix(cron:session): session closed for user logcheck
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Received Vendor ID payload Type = [Dead Peer Detection]
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 1st packet
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 2nd packet
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #773: received Delete SA(0x5e4d6228) payload: deleting IPSEC State #785
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: initiating Main Mode to replace #773
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] >>> Initiator Send Main Mode 1st packet
@@ -2187,15 +2013,7 @@
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] <<< Initiator Received Main Mode 2nd packet
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] <<< Initiator Received Main Mode 2nd packet
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] >>> Initiator send Main Mode 3rd packet
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 3rd packet
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Main Mode 4th packet
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] >>> Initiator send Main Mode 3rd packet
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 5th packet
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Main mode peer ID is ID_IPV4_ADDR: '64.198.75.72'
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 6th packet
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Main Mode Phase 1 SA Established
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Initiator Cookies = 80e8 8ce4 2fdb 82bc
-2011-12-07T00:21:55-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Responder Cookies = abb4 f9bf 86b 12c7
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] <<< Initiator Received Main Mode 4th packet
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] <<< Initiator Received Main Mode 4th packet
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] >>> Initiator Send Main Mode 5th packet
@@ -2206,52 +2024,11 @@
 2011-12-07T00:21:55-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] Main Mode Phase 1 SA Established
 2011-12-07T00:21:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: [Tunnel Negotiation Info] Main Mode Phase 1 SA Established
 2011-12-07T00:21:56-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: ISAKMP SA established
-2011-12-07T00:22:34-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
 2011-12-07T00:22:35-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #775: received Delete SA payload: deleting ISAKMP State #775
 2011-12-07T00:22:54-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #775: received Delete SA payload: deleting ISAKMP State #775
 2011-12-07T00:22:54-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: received Delete SA(0x5e4d6229) payload: deleting IPSEC State #786
-2011-12-07T00:22:54-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)received Delete SA payload: deleting ISAKMP State #11835
-2011-12-07T00:22:54-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
-2011-12-07T00:22:54-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Initiating Main Mode
-2011-12-07T00:22:54-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Main Mode 1st packet
-2011-12-07T00:22:56-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Initiating Main Mode
-2011-12-07T00:22:56-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Main Mode 1st packet
 2011-12-07T00:22:56.992151-06:00 rabo cron.info [31188]:  (CRON) error (grandchild #31191 failed with exit status 1)
 2011-12-07T00:22:57.585968-06:00 rabo authpriv.info CRON[31188]:  pam_unix(cron:session): session closed for user remotebackup
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Quick Mode message is for a non-existent (expired?) ISAKMP SA
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Quick Mode message is for a non-existent (expired?) ISAKMP SA
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Phase 1 message is part of an unknown exchange
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Ignoring Vendor ID payload [1ef283f83549b5ff...]
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Received Vendor ID payload Type = [Dead Peer Detection]
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Main Mode 2nd packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Main Mode 3rd packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Main Mode 4th packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Main Mode 5th packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Received Vendor ID payload Type = [Dead Peer Detection]
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 1st packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 2nd packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Receive Main Mode 6th packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Main mode peer ID is ID_IPV4_ADDR: '64.198.75.72'
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Main Mode Phase 1 SA Established
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Initiator Cookies = e9c 34d a3b b82c
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Responder Cookies = 2dc2 ede0 24cc ca5a
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+TUNNEL+PFS
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 3rd packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Main Mode 4th packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d622a
-2011-12-07T00:23:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = e6eb0688
-2011-12-07T00:23:06-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T00:23:06-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T00:23:06-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T00:23:06-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 5th packet
-2011-12-07T00:23:06-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Main mode peer ID is ID_IPV4_ADDR: '64.198.75.72'
-2011-12-07T00:23:06-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 6th packet
-2011-12-07T00:23:06-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Main Mode Phase 1 SA Established
-2011-12-07T00:23:06-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Initiator Cookies = dcdc 5344 b79f b2e1
-2011-12-07T00:23:06-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Responder Cookies = 13dc f44 b77 45a6
 2011-12-07T00:23:04-06:00 trout mail.info exim[29165]:  1RYAuG-0007aP-Lr <= remotebackup@rabo.openspec.us H=(rabo.openspec.us) [64.198.85.28] P=esmtps X=TLS1.0:RSA_AES_256_CBC_SHA1:32 DN="" S=991 id=E1RYAu9-0008Mc-GQ@rabo.openspec.us
 2011-12-07T00:23:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #787: received Delete SA(0x5e4d6229) payload: deleting IPSEC State #786
 2011-12-07T00:23:05-06:00 hc-router local1.warning VPN[-]:  Log: packet from 64.198.85.28:500: Informational Exchange is for an unknown (expired?) SA
@@ -2319,10 +2096,6 @@
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #793: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #793: Dead Peer Detection (RFC 3706) enabled
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #793: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Phase 1 message is part of an unknown exchange
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Quick Mode message is for a non-existent (expired?) ISAKMP SA
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Quick Mode message is for a non-existent (expired?) ISAKMP SA
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Retransmitting in response to duplicate packet; already STATE_MAIN_R3
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #793: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #793: IPsec SA established {ESP=>0x5e4d622a <0xe6eb0688
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] >>> Initiator Receive Main Mode 6th packet
@@ -2333,14 +2106,6 @@
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: ISAKMP SA established
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #794: initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS {using isakmp#792}
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #794: [Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d622b
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 6ae634c4
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #794: [Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: discarding duplicate packet; already STATE_MAIN_I4
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: discarding duplicate packet; already STATE_MAIN_I4
@@ -2354,7 +2119,6 @@
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #794: [Tunnel Negotiation Info] Outbound SPI value = 5e4d622b
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #794: [Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #794: [Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T00:23:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #794: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #794: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
 2011-12-07T00:23:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #794: Dead Peer Detection (RFC 3706) enabled
@@ -2365,9 +2129,6 @@
 2011-12-07T00:23:29-06:00 trout mail.info exim[29169]:  1RYAuf-0007aT-QI <= kylie.fane@zomerhofmuys.nl H=(lmdtu.com) [201.140.202.57] P=esmtp S=887 id=000e01cc7bd8$5ff5d300$39ca8cc9@zomerhofmuys.nl
 2011-12-07T00:23:32-06:00 trout mail.info exim[29170]:  1RYAuf-0007aT-QI => tpape <tpape@openspec.us> R=local_user T=maildir_home
 2011-12-07T00:23:32-06:00 trout mail.info exim[29170]:  1RYAuf-0007aT-QI Completed
-2011-12-07T00:23:39-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Quick Mode message is for a non-existent (expired?) ISAKMP SA
-2011-12-07T00:23:39-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Quick Mode message is for a non-existent (expired?) ISAKMP SA
-2011-12-07T00:23:39-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Phase 1 message is part of an unknown exchange
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #791: received Delete SA payload: deleting ISAKMP State #791
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #790: max number of retransmissions (2) reached STATE_MAIN_R1
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #790: max number of retransmissions (2) reached STATE_MAIN_R1
@@ -2375,7 +2136,6 @@
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #789: max number of retransmissions (2) reached STATE_QUICK_I1
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #789: starting keying attempt 2 of an unlimited number
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #795: initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #789 {using isakmp#792}
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #795: [Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #795: [Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #788: max number of retransmissions (2) reached STATE_QUICK_I1
@@ -2383,10 +2143,6 @@
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #788: starting keying attempt 2 of an unlimited number
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #788 {using isakmp#792}
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d622c
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = b4949c2b
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #795: [Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #795: [Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
@@ -2402,16 +2158,7 @@
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #795: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #795: Dead Peer Detection (RFC 3706) enabled
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #795: sent QI2, IPsec SA established {ESP=>0x5e4d622c <0xb4949c2b
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d622d
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 82d1ae5c
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-07T00:24:19-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-07T00:24:20-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T00:24:20-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T00:24:20-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -2420,7 +2167,6 @@
 2011-12-07T00:24:20-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] Outbound SPI value = 5e4d622d
 2011-12-07T00:24:20-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] Outbound SPI value = 5e4d622d
 2011-12-07T00:24:20-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T00:24:19-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T00:24:20-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
 2011-12-07T00:24:20-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
 2011-12-07T00:24:20-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #796: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
@@ -2559,10 +2305,7 @@
 2011-12-07T01:20:02-06:00 trout authpriv.info CRON[30855]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-07T01:20:05.710481-06:00 rabo authpriv.info CRON[1426]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-07T01:20:08.872736-06:00 rabo authpriv.info CRON[1427]:  pam_unix(cron:session): session closed for user logcheck
-2011-12-07T01:23:49-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11854
-2011-12-07T01:23:49-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA(0x5e4d622c) payload: deleting IPSEC State #795
-2011-12-07T01:23:49-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #797: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -2573,12 +2316,6 @@
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #797: [Tunnel Negotiation Info] Outbound SPI value = 5e4d622e
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #797: [Tunnel Negotiation Info] Outbound SPI value = 5e4d622e
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #797: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T01:23:49-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d622e
-2011-12-07T01:23:49-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = a7c7247f
-2011-12-07T01:23:49-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T01:23:49-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T01:23:49-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T01:23:49-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #797: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #797: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T01:23:50-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #797: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -2759,15 +2496,6 @@
 2011-12-07T02:23:10-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #798: [Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
 2011-12-07T02:23:10-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #798: IPsec SA established {ESP=>0x5e4d622f <0x68f0f72c
 2011-12-07T02:23:10-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA(0x5e4d622e) payload: deleting IPSEC State #797
-2011-12-07T02:23:09-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11855
-2011-12-07T02:23:09-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-07T02:23:09-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
-2011-12-07T02:23:09-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d622f
-2011-12-07T02:23:09-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 68f0f72c
-2011-12-07T02:23:09-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T02:23:09-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T02:23:09-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T02:23:09-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T02:25:32-06:00 trout daemon.info smartd[2435]:  Device: /dev/sda [SAT], starting scheduled Short Self-Test.
 2011-12-07T02:25:32-06:00 trout daemon.info smartd[2435]:  Device: /dev/sdb [SAT], starting scheduled Short Self-Test.
 2011-12-07T02:25:58-06:00 trout mail.info exim[733]:  Start queue run: pid=733
@@ -2945,27 +2673,18 @@
 2011-12-07T03:20:08-06:00 trout mail.info exim[2790]:  1RYDfc-0000j0-7L <= logcheck@rabo.openspec.us H=(rabo.openspec.us) [64.198.85.28] P=esmtps X=TLS1.0:RSA_AES_256_CBC_SHA1:32 DN="" S=901 id=E1RYDfb-0001Uz-8k@rabo.openspec.us
 2011-12-07T03:20:08-06:00 trout mail.info exim[2791]:  1RYDfc-0000j0-7L => nroling <nroling@openspec.us> R=local_user T=maildir_home
 2011-12-07T03:20:08-06:00 trout mail.info exim[2791]:  1RYDfc-0000j0-7L Completed
-2011-12-07T03:22:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11856
-2011-12-07T03:22:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA(0x5e4d622e) payload: deleting IPSEC State #797
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: responding to Quick Mode
-2011-12-07T03:22:29-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: [Tunnel Negotiation Info] Inbound  SPI value = bc704dae
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: [Tunnel Negotiation Info] Inbound  SPI value = bc704dae
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6230
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6230
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T03:22:30-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6230
-2011-12-07T03:22:30-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = bc704dae
-2011-12-07T03:22:30-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T03:22:30-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T03:22:30-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T03:22:30-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T03:22:30-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #799: Dead Peer Detection (RFC 3706) enabled
@@ -3135,27 +2854,18 @@
 2011-12-07T04:20:30-06:00 trout mail.info exim[4820]:  1RYEc1-0001Fk-Fh <= fclnfnrfhmkdc@accellera.org H=(59.164.8.199.man-dynamic.vsnl.net.in) [59.164.8.199] P=esmtp S=804 id=ippMCifq1y83e7O01q0MBJF6MGU6ms416YsRC2W@bvpvbbcna
 2011-12-07T04:20:30-06:00 trout mail.info exim[4821]:  1RYEc1-0001Fk-Fh => josborne <pschwinn@openspec.us> R=local_user T=maildir_home
 2011-12-07T04:20:30-06:00 trout mail.info exim[4821]:  1RYEc1-0001Fk-Fh Completed
-2011-12-07T04:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11857
-2011-12-07T04:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA(0x5e4d622f) payload: deleting IPSEC State #798
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
-2011-12-07T04:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: responding to Quick Mode
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: [Tunnel Negotiation Info] Inbound  SPI value = 621f6421
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: [Tunnel Negotiation Info] Inbound  SPI value = 621f6421
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6231
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6231
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T04:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6231
-2011-12-07T04:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 621f6421
-2011-12-07T04:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T04:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T04:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T04:21:41-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T04:21:42-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #800: Dead Peer Detection (RFC 3706) enabled
@@ -3321,9 +3031,6 @@
 2011-12-07T05:20:02.101781-06:00 rabo authpriv.info CRON[9594]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-07T05:20:02-06:00 trout authpriv.info CRON[6694]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-07T05:20:07.295915-06:00 rabo authpriv.info CRON[9593]:  pam_unix(cron:session): session closed for user logcheck
-2011-12-07T05:20:58-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11858
-2011-12-07T05:20:58-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-07T05:20:58-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T05:20:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA(0x5e4d6230) payload: deleting IPSEC State #799
 2011-12-07T05:20:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T05:20:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
@@ -3335,12 +3042,6 @@
 2011-12-07T05:20:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #801: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6232
 2011-12-07T05:20:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #801: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6232
 2011-12-07T05:20:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #801: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T05:20:58-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6232
-2011-12-07T05:20:58-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = d0e62b4f
-2011-12-07T05:20:58-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T05:20:58-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T05:20:58-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T05:20:58-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T05:20:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #801: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-07T05:20:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #801: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T05:20:59-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #801: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -3504,9 +3205,6 @@
 2011-12-07T06:20:02-06:00 trout authpriv.info CRON[8691]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-07T06:20:02.417654-06:00 rabo authpriv.info CRON[11688]:  pam_unix(cron:session): session closed for user logcheck
 2011-12-07T06:20:07.165738-06:00 rabo authpriv.info CRON[11689]:  pam_unix(cron:session): session closed for user logcheck
-2011-12-07T06:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11859
-2011-12-07T06:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-07T06:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA(0x5e4d6231) payload: deleting IPSEC State #800
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
@@ -3514,16 +3212,10 @@
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: responding to Quick Mode
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: [Tunnel Negotiation Info] Inbound  SPI value = 1425cf79
-2011-12-07T06:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6233
-2011-12-07T06:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 1425cf79
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: [Tunnel Negotiation Info] Inbound  SPI value = 1425cf79
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6233
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6233
 2011-12-07T06:20:11-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T06:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T06:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T06:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T06:20:11-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T06:20:12-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-07T06:20:12-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T06:20:12-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #802: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -3714,10 +3406,7 @@
 2011-12-07T07:17:30-06:00 trout mail.info exim[11037]:  1RYHNK-0002s1-N6 <= josborne@openspec.us H=([10.1.0.105]) [64.198.85.28] P=esmtpsa X=TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32 DN="" A=plain_saslauthd_server:josborne S=1536 id=4EDF676D.3050105@openspec.us
 2011-12-07T07:17:32-06:00 trout mail.info exim[11038]:  1RYHNK-0002s1-N6 => steven.ulstad@yahoo.com R=dnslookup T=remote_smtp H=mta6.am0.yahoodns.net [98.139.54.60]
 2011-12-07T07:17:32-06:00 trout mail.info exim[11038]:  1RYHNK-0002s1-N6 Completed
-2011-12-07T07:19:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11860
-2011-12-07T07:19:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA(0x5e4d6232) payload: deleting IPSEC State #801
-2011-12-07T07:19:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #803: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -3728,12 +3417,6 @@
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #803: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6234
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #803: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6234
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #803: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T07:19:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6234
-2011-12-07T07:19:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 39d81d1f
-2011-12-07T07:19:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T07:19:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T07:19:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T07:19:28-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #803: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #803: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T07:19:28-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #803: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -3952,8 +3635,6 @@
 2011-12-07T08:18:23-06:00 trout mail.info imapd-ssl[-]:  DISCONNECTED, user=dlucas, ip=[::ffff:10.0.0.1], headers=1138, body=63037, rcvd=595, sent=67982, time=37, starttls=1
 2011-12-07T08:18:23-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:10.0.0.1]
 2011-12-07T08:18:23-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=dlucas, ip=[::ffff:10.0.0.1], port=[61990], protocol=IMAP
-2011-12-07T08:18:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11861
-2011-12-07T08:18:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA(0x5e4d6233) payload: deleting IPSEC State #802
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
@@ -3961,18 +3642,11 @@
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: responding to Quick Mode
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: [Tunnel Negotiation Info] Inbound  SPI value = 7f2edfae
-2011-12-07T08:18:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: [Tunnel Negotiation Info] Inbound  SPI value = 7f2edfae
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6235
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6235
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T08:18:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6235
-2011-12-07T08:18:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 7f2edfae
-2011-12-07T08:18:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T08:18:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T08:18:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T08:18:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T08:18:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #804: Dead Peer Detection (RFC 3706) enabled
@@ -4006,8 +3680,6 @@
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA(0x5e4d6234) payload: deleting IPSEC State #803
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: initiating Main Mode to replace #792
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] >>> Initiator Send Main Mode 1st packet
-2011-12-07T08:22:22-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Received Vendor ID payload Type = [Dead Peer Detection]
-2011-12-07T08:22:22-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 1st packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] >>> Initiator Send Main Mode 1st packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: received Vendor ID payload [Dead Peer Detection]
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: received Vendor ID payload [Dead Peer Detection]
@@ -4015,11 +3687,9 @@
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] <<< Initiator Received Main Mode 2nd packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] >>> Initiator send Main Mode 3rd packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] >>> Initiator send Main Mode 3rd packet
-2011-12-07T08:22:22-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 2nd packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] <<< Initiator Received Main Mode 4th packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] <<< Initiator Received Main Mode 4th packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] >>> Initiator Send Main Mode 5th packet
-2011-12-07T08:22:22-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 3rd packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] >>> Initiator Send Main Mode 5th packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] >>> Initiator Receive Main Mode 6th packet
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] >>> Initiator Receive Main Mode 6th packet
@@ -4027,14 +3697,6 @@
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] Main Mode Phase 1 SA Established
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] Main Mode Phase 1 SA Established
 2011-12-07T08:22:23-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: ISAKMP SA established
-2011-12-07T08:22:23-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder send Main Mode 4th packet
-2011-12-07T08:22:23-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Responder Received Main Mode 5th packet
-2011-12-07T08:22:23-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Main mode peer ID is ID_IPV4_ADDR: '64.198.75.72'
-2011-12-07T08:22:23-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Responder Send Main Mode 6th packet
-2011-12-07T08:22:23-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Main Mode Phase 1 SA Established
-2011-12-07T08:22:23-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Initiator Cookies = 52a 9e30 6587 2bea
-2011-12-07T08:22:23-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Responder Cookies = cb82 41c 5272 f144
-2011-12-07T08:23:16-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
 2011-12-07T08:23:17-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA payload: deleting ISAKMP State #792
 2011-12-07T08:24:39-06:00 trout mail.info exim[13480]:  1RYIQJ-0003VQ-QV <= apportbong@flickr.com H=(xa7e95e4238b24) [68.54.95.89] P=smtp S=5789 id=002a01ccb4a8$ed3bdad0$c7b39070$@com
 2011-12-07T08:24:39-06:00 trout mail.info exim[13483]:  1RYIQJ-0003VQ-QV => tpape <tpape@openspec.us> R=local_user T=maildir_home
@@ -4211,13 +3873,10 @@
 2011-12-07T09:17:23-06:00 trout mail.info exim[15234]:  1RYJFK-0003xi-Rt <= 20003+10000+17086+1+0+75+0+lroling=openspec.us+9414010@cpbnc.com H=(quill.cpbnc.com) [153.69.213.139] P=esmtp S=19589 id=1AB69CA33DBD4572BD454F4893322A9A@PMMS02
 2011-12-07T09:17:23-06:00 trout mail.info exim[15235]:  1RYJFK-0003xi-Rt => lroling <lroling@openspec.us> R=local_user T=maildir_home
 2011-12-07T09:17:23-06:00 trout mail.info exim[15235]:  1RYJFK-0003xi-Rt Completed
-2011-12-07T09:18:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11862
-2011-12-07T09:18:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #792: received Delete SA payload: deleting ISAKMP State #792
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
-2011-12-07T09:18:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: responding to Quick Mode
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: [Tunnel Negotiation Info] Inbound  SPI value = d2c6dae0
@@ -4225,12 +3884,6 @@
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6236
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6236
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T09:18:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6236
-2011-12-07T09:18:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = d2c6dae0
-2011-12-07T09:18:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T09:18:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T09:18:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T09:18:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T09:18:06-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #806: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -4425,11 +4078,8 @@
 2011-12-07T10:17:18-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=dlucas, ip=[::ffff:10.0.0.1], port=[62361], protocol=IMAP
 2011-12-07T10:17:18-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:10.0.0.1]
 2011-12-07T10:17:19-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=dlucas, ip=[::ffff:10.0.0.1], port=[62362], protocol=IMAP
-2011-12-07T10:17:23-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11864
-2011-12-07T10:17:23-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: received Delete SA(0x5e4d6235) payload: deleting IPSEC State #804
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
-2011-12-07T10:17:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #807: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #807: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -4439,12 +4089,6 @@
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #807: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6237
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #807: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6237
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #807: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T10:17:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6237
-2011-12-07T10:17:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 9f535f04
-2011-12-07T10:17:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T10:17:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T10:17:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
-2011-12-07T10:17:24-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #807: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #807: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T10:17:24-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #807: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
@@ -4635,9 +4279,6 @@
 2011-12-07T11:15:31-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=rkane, ip=[::ffff:64.198.85.28], port=[60312], protocol=IMAP
 2011-12-07T11:15:47-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:64.198.85.28]
 2011-12-07T11:15:48-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=rkane, ip=[::ffff:64.198.85.28], port=[60313], protocol=IMAP
-2011-12-07T11:16:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11865
-2011-12-07T11:16:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-07T11:16:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: received Delete SA(0x5e4d6236) payload: deleting IPSEC State #806
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
@@ -4649,13 +4290,7 @@
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #808: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6238
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #808: [Tunnel Negotiation Info] Outbound SPI value = 5e4d6238
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #808: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T11:16:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6238
-2011-12-07T11:16:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 56e11538
-2011-12-07T11:16:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T11:16:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T11:16:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #808: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T11:16:40-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #808: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #808: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T11:16:41-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #808: Dead Peer Detection (RFC 3706) enabled
@@ -4739,30 +4374,6 @@
 2011-12-07T11:45:31-06:00 trout mail.info imapd-ssl[-]:  TIMEOUT, user=rkane, ip=[::ffff:64.198.85.28], headers=0, body=0, rcvd=2783, sent=104, time=1800, starttls=1
 2011-12-07T11:45:57-06:00 trout mail.info imapd-ssl[-]:  TIMEOUT, user=rkane, ip=[::ffff:64.198.85.28], headers=458, body=0, rcvd=261, sent=593725, time=1809, starttls=1
 2011-12-07T11:48:04-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:166.182.65.30]
-2011-12-07T11:48:21-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
-2011-12-07T11:48:21-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Initiating Main Mode
-2011-12-07T11:48:21-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Main Mode 1st packet
-2011-12-07T11:48:25-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Informational Exchange is for an unknown (expired?) SA
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Ignoring Vendor ID payload [1ef283f83549b5ff...]
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Received Vendor ID payload Type = [Dead Peer Detection]
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Main Mode 2nd packet
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Main Mode 3rd packet
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Discarding duplicate packet; already STATE_MAIN_I2
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Main Mode 4th packet
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Main Mode 5th packet
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Receive Main Mode 6th packet
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Main mode peer ID is ID_IPV4_ADDR: '64.198.75.72'
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Main Mode Phase 1 SA Established
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Initiator Cookies = 1285 7ff9 21f 9b4b
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Responder Cookies = 80d3 89d6 155 95ef
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+TUNNEL+PFS
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
-2011-12-07T11:48:26-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
-2011-12-07T11:48:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d6239
-2011-12-07T11:48:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 403fcdee
-2011-12-07T11:48:27-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T11:48:28-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T11:48:28-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-07T11:48:05-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=rnemec, ip=[::ffff:166.182.65.30], port=[2505], protocol=IMAP
 2011-12-07T11:48:13-06:00 trout mail.info imapd-ssl[-]:  TIMEOUT, user=rnemec, ip=[::ffff:64.198.85.28], headers=588, body=1605, rcvd=954, sent=12113, time=5377, starttls=1
 2011-12-07T11:48:17-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #805: received Delete SA(0x5e4d6237) payload: deleting IPSEC State #807
@@ -4922,7 +4533,6 @@
 2011-12-07T12:17:02.768347-06:00 rabo auth.info sshd[23719]:  Received disconnect from 10.0.0.12: 11: disconnected by user
 2011-12-07T12:17:02.768373-06:00 rabo authpriv.info sshd[23719]:  pam_unix(sshd:session): session closed for user root
 2011-12-07T12:17:03-06:00 trout authpriv.info CRON[21495]:  pam_unix(cron:session): session closed for user remotebackup
-2011-12-07T12:17:47-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T12:18:02-06:00 trout mail.debug imapd-ssl[-]:  Connection, ip=[::ffff:64.198.85.28]
 2011-12-07T12:18:04-06:00 trout mail.info imapd-ssl[-]:  LOGIN, user=rnemec, ip=[::ffff:64.198.85.28], port=[56768], protocol=IMAP
 2011-12-07T12:18:09-06:00 trout mail.info imapd-ssl[-]:  TIMEOUT, user=rnemec, ip=[::ffff:166.182.65.30], headers=0, body=0, rcvd=207, sent=3102, time=1804, starttls=1
@@ -4987,10 +4597,7 @@
 2011-12-07T12:45:08-06:00 trout mail.info exim[22510]:  1RYMUM-0005r4-SC <= apache@swipp.de H=([78.97.177.213]) [78.97.177.213] P=esmtp S=34681 id=01ccb566$001b9100$d5b1614e@apache
 2011-12-07T12:45:08-06:00 trout mail.info exim[22511]:  1RYMUM-0005r4-SC => lroling <lroling@openspec.us> R=local_user T=maildir_home
 2011-12-07T12:45:08-06:00 trout mail.info exim[22511]:  1RYMUM-0005r4-SC Completed
-2011-12-07T12:47:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11868
-2011-12-07T12:47:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #809: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
-2011-12-07T12:47:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #809: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #811: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #811: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
@@ -5000,13 +4607,7 @@
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #811: [Tunnel Negotiation Info] Outbound SPI value = 5e4d623a
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #811: [Tunnel Negotiation Info] Outbound SPI value = 5e4d623a
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #811: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T12:47:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d623a
-2011-12-07T12:47:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = 4be2afdd
-2011-12-07T12:47:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T12:47:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T12:47:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #811: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T12:47:45-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #811: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #811: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T12:47:46-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #811: Dead Peer Detection (RFC 3706) enabled
@@ -5236,13 +4837,10 @@
 2011-12-07T13:45:00-06:00 trout mail.info exim[24638]:  1RYNQK-0006PO-1G <= 156a5d537layfovciaztgbfqaaaaabx76k4hsrzghpyyaaaaa@target.bfi0.com H=(bigfootinteractive.com) [206.132.3.114] P=esmtp S=44643 id=156a5d537layfovciaztgbfqaaaaabx76k4hsrzghpyyaaaaa.2798.5206.unjdrmmailerpv12.DumpShot.2@target.bfi0.com
 2011-12-07T13:45:00-06:00 trout mail.info exim[24641]:  1RYNQK-0006PO-1G => lroling <lroling@openspec.us> R=local_user T=maildir_home
 2011-12-07T13:45:00-06:00 trout mail.info exim[24641]:  1RYNQK-0006PO-1G Completed
-2011-12-07T13:47:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS to replace #11869
-2011-12-07T13:47:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator send Quick Mode 1st packet
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #809: received Delete SA(0x5e4d6239) payload: deleting IPSEC State #810
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #809: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #809: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 1st packet
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
-2011-12-07T13:47:04-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] <<< Initiator Received Quick Mode 2nd packet
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: esp_ealg_id=12-12,esp_ealg_keylen=128, key_len=128,esp_aalg_id=1-1.\012
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: responding to Quick Mode
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: [Tunnel Negotiation Info] Inbound  SPI value = a090ec96
@@ -5250,13 +4848,7 @@
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: [Tunnel Negotiation Info] Outbound SPI value = 5e4d623b
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: [Tunnel Negotiation Info] Outbound SPI value = 5e4d623b
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T13:47:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Inbound  SPI value = 5e4d623b
-2011-12-07T13:47:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Outbound SPI value = a090ec96
-2011-12-07T13:47:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] >>> Initiator Send Quick Mode 3rd packet
-2011-12-07T13:47:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)[Tunnel Negotiation Info] Quick Mode Phase 2 SA Established, IPSec Tunnel Connected 
-2011-12-07T13:47:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)Dead Peer Detection Start, DPD delay timer=10 sec  timeout=10 sec
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: [Tunnel Negotiation Info] >>> Responder send Quick Mode 2nd packet
-2011-12-07T13:47:05-06:00 2011 authpriv.warning dbq-router[-]:  SYSLOG_NK-(VPN Log)ignoring Delete SA payload: IPSEC SA not found (maybe expired)
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: [Tunnel Negotiation Info] <<< Responder Received Quick Mode 3rd packet
 2011-12-07T13:47:05-06:00 hc-router local1.warning VPN[-]:  Log: (g2gips0) #812: Dead Peer Detection (RFC 3706) enabled
@@ -5419,8 +5011,6 @@
 2011-12-07T14:34:00.200359-06:00 rabo authpriv.notice sudo[-]:   nroling : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/cp everything_monitoring /tmp/
 2011-12-26T21:27:48.337883-06:00 rabo daemon.crit apcupsd[1202]:  Power failure.
 2011-12-26T21:27:50.077992-06:00 rabo daemon.alert apcupsd[1202]:  Power is back. UPS running on mains.
-2012-01-02T06:28:09-06:00 2012 daemon.err dbq-router[-]:  SYSLOG_NK-(System Log)Remote Client [rnemec] log in PPTP Server.
-2012-01-02T13:18:57-06:00 2012 daemon.err dbq-router[-]:  SYSLOG_NK-(System Log)Remote Client [rnemec] log out PPTP Server.
 This line is horribly broken.
 2012-01-17T16:17:16.797587-06:00 rabo daemon.err mysqld[-]: 
 2012-01-18T14:12:43.074571-06:00 rabo daemon.err rpc.statd[9415]:  Caught signal 15, un-registering and exiting
