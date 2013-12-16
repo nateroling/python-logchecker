@@ -5033,3 +5033,4 @@ This line is horribly broken.
 2013-10-06T06:25:02.770454-05:00 rabo daemon.notice puppet-master[11619]:  Caught TERM; calling stop
 2013-10-06T06:25:05.700636-05:00 rabo daemon.notice puppet-master[14447]:  Reopening log files
 2013-10-06T06:25:05.701022-05:00 rabo daemon.notice puppet-master[14447]:  Starting Puppet master version 2.6.2
+2013-12-15T19:27:42.621705-06:00 rabo authpriv.info sudo[]:  pam_unix(sudo:session): session opened for user root by (uid=0)

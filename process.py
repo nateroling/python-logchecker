@@ -256,7 +256,7 @@ _hostname = Word(alphas + nums + "-")
 _facility = Word(alphas + nums)
 _severity = Word(alphas).addParseAction(lambda t: [Severity(x) for x in t])
 _program = Optional(Word(alphas + nums + "_-."))
-_pid = Word(nums + "-")
+_pid = Optional(Word(nums + "-"))
 _s = Suppress
 
 parser = (_datetime("time") + _hostname("host") + _facility("facility") +
