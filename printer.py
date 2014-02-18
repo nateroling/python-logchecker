@@ -64,6 +64,11 @@ printer.discard(
         "[ERROR] Slave I/O: error reconnecting to master",
         "[Note] Slave: connected to master"),
 
+    # Ignore mysql warnings about transactions. I need to fix this eventually,
+    # but not right now.
+    (program == "mysqld") & message.contains(
+        "Statement is unsafe because it accesses a non-transactional table after accessing a transactional table within the same transaction"),
+
     # Ignore spamd restarting
     (program == "spamd.pid") & message.match(
         "spamd: restarting using '/usr/sbin/spamd --create-prefs "\

@@ -5034,3 +5034,4 @@ This line is horribly broken.
 2013-10-06T06:25:05.700636-05:00 rabo daemon.notice puppet-master[14447]:  Reopening log files
 2013-10-06T06:25:05.701022-05:00 rabo daemon.notice puppet-master[14447]:  Starting Puppet master version 2.6.2
 2013-12-15T19:27:42.621705-06:00 rabo authpriv.info sudo[]:  pam_unix(sudo:session): session opened for user root by (uid=0)
+2014-02-17T14:42:55-06:00 trout daemon.err mysqld[]:  140217 14:42:55 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statement is unsafe because it accesses a non-transactional table after accessing a transactional table within the same transaction. Statement: UPDATE _delivery_tickets SET number=64554, delivered_at='2014-02-17 14:42:55', submitted_at='2014-02-17 14:42:55' WHERE _delivery_tickets.id = 14857
