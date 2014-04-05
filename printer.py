@@ -75,7 +75,12 @@ printer.discard(
         "--max-children 5 --helper-home-dir -d --pidfile=/var/run/spamd.pid'"),
 
     (program == "famd") & message.match(
-        "stat on \".*courier\.lock\" failed: No such file or directory")
+        "stat on \".*courier\.lock\" failed: No such file or directory"),
+
+    # Ignore ext3_orphan_cleanup
+    (facility == "kern") & (severity == "debug") & message.contains(
+            "ext3_orphan_cleanup: deleting unreferenced inode ")
+
 
     )
 
