@@ -18,6 +18,11 @@ exim_counter.count(
     threshold=200)
 
 exim_counter.count(
+    "malware",
+    message.match(".*rejected after DATA: malware detected: .*"),
+    threshold=200)
+
+exim_counter.count(
     "relay not permitted",
     message.match(".*relay not permitted$"),
     threshold=5)

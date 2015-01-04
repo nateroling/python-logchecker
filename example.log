@@ -5037,4 +5037,8 @@ This line is horribly broken.
 2014-02-17T14:42:55-06:00 trout daemon.err mysqld[]:  140217 14:42:55 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statement is unsafe because it accesses a non-transactional table after accessing a transactional table within the same transaction. Statement: UPDATE _delivery_tickets SET number=64554, delivered_at='2014-02-17 14:42:55', submitted_at='2014-02-17 14:42:55' WHERE _delivery_tickets.id = 14857
 2014-04-03T16:00:02-05:00 trout kern.debug kernel[]:  [2757558.035845] ext3_orphan_cleanup: deleting unreferenced inode 5152779
 2014-05-14T08:32:33-05:00 trout mail.info exim[13776]:  1WkZIO-0003a6-3Y aspmx.l.google.com [2607:f8b0:4001:c03::1a] Network is unreachable
-
+2015-01-03T18:15:36-06:00 hc-router local0.warning System[]:  Log:  NSD FAIL WAN[1]
+2015-01-03T18:16:16-06:00 hc-router local0.warning System[]:  Log:  NSD SUCCESS WAN[1]
+2015-01-03T12:52:42-06:00 trout daemon.warning apcupsd[2128]:  UPS Self Test switch to battery.
+2015-01-03T12:52:50-06:00 trout daemon.alert apcupsd[2128]:  UPS Self Test completed: Not supported
+2011-12-06T14:16:16-06:00 trout mail.notice exim[8200]:  H=(vil38-1-78-233-173-34.fbx.proxad.net) [78.233.173.34] F=<jdavids@openspec.us> rejected after DATA: malware detected: Sanesecurity.Jurlbl.4983.UNOFFICIAL

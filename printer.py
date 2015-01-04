@@ -10,6 +10,11 @@ printer.discard(
     # Ignore all VPN messages from both routers.
     (host == ["dbq-router", "hc-router"]) & (program == "VPN"),
 
+    # Ignore network failure messages.
+    (host == ["dbq-router", "hc-router"]) & (message.match(
+        "Log:  NSD FAIL WAN\[1\]",
+        "Log:  NSD SUCCESS WAN\[1\]")),
+
     # Ignore VPN Logins/Logouts
     (host == "dbq-router") & (message.match(".* log in PPTP Server\.")),
     (host == "dbq-router") & (message.match(".* log out PPTP Server\.")),
@@ -52,7 +57,9 @@ printer.discard(
     # Ignore some apcupsd messages.
     (program == "apcupsd") & message.match(
         "Power failure\.",
-        "Power is back\. UPS running on mains."),
+        "Power is back\. UPS running on mains.",
+        "UPS Self Test switch to battery.",
+        "UPS Self Test completed: Not supported"),
 
     # Ignore ioctl messages from Debian bug 665850
     (facility == "kern") & (severity == "warning") & message.match(
