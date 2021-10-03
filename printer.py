@@ -86,7 +86,11 @@ printer.discard(
 
     # Ignore ext3_orphan_cleanup
     (facility == "kern") & (severity == "debug") & message.contains(
-            "ext3_orphan_cleanup: deleting unreferenced inode ")
+            "ext3_orphan_cleanup: deleting unreferenced inode "),
+
+    # Ignore 1 unreadable sector on sdb
+    (program == "smartd") & message.match(
+        "Device: /dev/sdb [SAT], 1 Currently unreadable (pending) sectors")
 
 
     )
